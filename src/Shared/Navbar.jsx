@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaSun, FaMoon } from "react-icons/fa";
 import logo from '../assets/cover.png';
 import { Link, animateScroll as scroll } from "react-scroll";
 import HireMeModal from "../Home/HireMeModal/HireMeModal";
+import "../Shared/Navbar.css"
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -22,9 +23,12 @@ const Navbar = () => {
     setShowModal(false);
   };
 
+  console.log('Navbar rendered');
+console.log('toggleMenu:', toggleMenu);
+
   return (
     <div className="app">
-      <nav className="bg-gray-100">
+      <nav className="bg-gray-100 sticky-navbar">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-center mx-auto w-5/6 py-6 px-4 lg:px-0">
             {/* Logo */}
@@ -38,7 +42,7 @@ const Navbar = () => {
               <Link
                 to="projects"
                 smooth={true}
-                duration={500}
+                duration={800}
                 className="nav-link cursor-pointer text-gray-600 hover:text-black"
                 activeClass="active"
                 spy={true}
@@ -49,7 +53,7 @@ const Navbar = () => {
                 to="skills"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={800}
                 className="nav-link cursor-pointer text-gray-600 hover:text-black"
                 activeClass="active"
               >
@@ -59,7 +63,7 @@ const Navbar = () => {
                 to="about"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={800}
                 className="nav-link cursor-pointer text-gray-600 hover:text-black"
                 activeClass="active"
               >
@@ -69,7 +73,7 @@ const Navbar = () => {
                 to="contact"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={1000}
                 className="nav-link cursor-pointer"
                 activeClass="active"
               >
@@ -93,7 +97,7 @@ const Navbar = () => {
                 </div>
                 <div>
                   <button
-                    className="rounded-full border-solid border-2 border-gray-300 py-2 px-4 hover:bg-gray-700 hover:text-gray-100"
+                    className="rounded-full border-solid border-2 border-gray-300 py-2 px-4 hover:bg-gray-700 hover:text-gray-100 duration-300"
                     onClick={openModal}
                   >
                     Hire Me
