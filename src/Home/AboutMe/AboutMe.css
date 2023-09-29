@@ -1,0 +1,23 @@
+/* styles.css */
+/* Required for locomotive-scroll */
+[data-scroll-container] {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Hide horizontal scrollbar */
+  html {
+    overflow-x: hidden;
+  }
+  
+  /* Apply the reveal transition to text elements */
+  [data-scroll] .text-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  [data-scroll] .text-reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

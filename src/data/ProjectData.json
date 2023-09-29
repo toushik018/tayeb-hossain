@@ -1,0 +1,54 @@
+[
+  {
+    "title": "ToyJoy",
+    "description": "An online toy store offering a wide selection of toys for kids of all ages.",
+    "technologies": ["React", "Firebase", "MongoDB", "Node.js", "Express.js"],
+    "images": [
+      "https://i.ibb.co/WfrJgT1/toyjoy.jpg",
+      "https://i.ibb.co/ZHt8P14/toyjoy-ui-1.jpg",
+      "https://i.ibb.co/BgXpMW4/toyjoy-ui-2.jpg"
+    ],
+    "details": "ToyJoy is a full-stack web application built using Firebase, MongoDB, Node.js, and Express.js. It provides an enjoyable online shopping experience for children, offering a wide range of toys from various categories. The application allows users to browse and purchase toys, track orders, and manage their profiles. The backend is powered by a scalable database and server infrastructure, ensuring smooth performance and reliable functionality.",
+    "previewLink": "https://toyjoy-client.web.app/",
+    "githubLink": "https://github.com/toushik018/toy-joy-client"
+  },
+  {
+    "title": "MealMaster",
+    "description": "A chef hunting website connecting talented chefs with potential employers.",
+    "technologies": ["Firebase", "Node.js", "Express.js"],
+    "images": [
+      "https://i.ibb.co/brynjsf/Screenshot-2023-07-02-022925.jpg",
+      "https://i.ibb.co/Wgp1QqB/mealmaster-ui-1.jpg",
+      "https://i.ibb.co/V23ZYMH/mealmaster-ui-2.jpg"
+    ],
+    "details": "MealMaster is a web platform designed to connect talented chefs with potential employers. Built using Firebase, Node.js, and Express.js, MealMaster provides a seamless experience for both chefs and employers. Chefs can create profiles, showcase their skills and experience, and browse job opportunities. Employers can post job listings, search for chefs based on specific criteria, and review chef profiles. The platform streamlines the hiring process, making it easier for chefs and employers to connect and collaborate.",
+    "previewLink": "https://meal-master-client2.web.app/",
+    "githubLink": "https://github.com/toushik018/meal-master-client"
+  },
+  {
+    "title": "Framelab",
+    "description": "An online photography learning website offering courses and tutorials for photographers.",
+    "technologies": ["Firebase", "MongoDB", "Node.js", "Express.js"],
+    "images": [
+      "https://i.ibb.co/VxR9Hx6/Screenshot-2023-07-02-023025.jpg",
+      "https://i.ibb.co/q5VJ9gz/framelab-ui-1.jpg",
+      "https://i.ibb.co/nbhk2N2/framelab-ui-3.jpg"
+    ],
+    "details": "Framelab is an online platform dedicated to photography education. Using Firebase, MongoDB, Node.js, and Express.js, Framelab offers a range of courses and tutorials for photographers of all skill levels. The platform provides a rich learning experience with interactive lessons, practical exercises, and community engagement. Photographers can enhance their skills, learn new techniques, and connect with fellow enthusiasts. Framelab aims to empower photographers to unleash their creativity and elevate their craft through comprehensive and engaging educational content.",
+    "previewLink": "https://framelab-a22d8.web.app/",
+    "githubLink": "https://github.com/toushik018/frameLab-client"
+  },
+  {
+    "title": "UniPay",
+    "description": "UniPay is a web application built for the Department of Computer Science and Engineering (CSE) students.",
+    "technologies": ["Firebase", "MongoDB", "Node.js", "Express.js"],
+    "images": [
+      "https://i.ibb.co/wYSVyPr/Screenshot-2023-08-05-203458.jpg",
+      "https://i.ibb.co/YRxBQWN/unipay2.jpg",
+      "https://i.ibb.co/fSs3nk0/unipay3.jpg"
+    ],
+    "details": "UniPay is a web application built for the Department of Computer Science and Engineering (CSE) students. It enables students to conveniently pay tour fees, club fees, and event fees online using a secure payment gateway. The platform includes separate student and admin accounts, allowing admins to manage the system by assigning student admin roles and overseeing payment history. UniPay prioritizes security with secure login and registration processes. It serves as a strong addition to your portfolio, showcasing your skills in developing functional web applications with payment gateways, user management, and secure authentication.",
+    "previewLink": "https://unipay-client.web.app/",
+    "githubLink": "https://github.com/toushik018/uniPay"
+  }
+]
